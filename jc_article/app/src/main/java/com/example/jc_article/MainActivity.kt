@@ -5,10 +5,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -61,7 +60,8 @@ fun ArticleCard(
         Image(
             painter = image,
             contentDescription = null,
-            //contentScale = ContentScale.Fit
+            modifier = Modifier.fillMaxWidth(),
+            contentScale = ContentScale.FillWidth
         )
         Text(
             text = header,
@@ -71,14 +71,12 @@ fun ArticleCard(
         Text(
             text = text1,
             textAlign = Justify,
-            modifier = modifier
-                .padding(start = 16.dp, top = 16.dp)
+            modifier = Modifier.padding(top = 16.dp, bottom = 16.dp)
         )
         Text(
             text = text2,
             textAlign = Justify,
-            modifier = modifier
-                .padding(start = 16.dp, top = 16.dp)
+            modifier = Modifier.padding(16.dp)
 
         )
     }
