@@ -25,6 +25,7 @@ import com.example.happybirthday.R.drawable.androidparty
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.stringResource
 import com.example.happybirthday.ui.theme.HappybirthdayTheme
 
 
@@ -45,8 +46,8 @@ class MainActivity : ComponentActivity() {
 //                            modifier = Modifier.padding(8.dp)
 //                        )
                         GreetingImage(
-                            message = "HB Sam!",
-                            from = "Emma",
+                            message = stringResource(R.string.happy_birthday_text),
+                            from = stringResource(R.string.signature_text),
 
                         )
 
@@ -104,6 +105,9 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier){
 fun BirthdayCardPreview() {
     HappybirthdayTheme {
         //GreetingText(message = "Happy Birthday Sam", from = "from Eva")
-        GreetingImage(message = "HB SAM!", from = "from Emma")
+        GreetingImage(
+            message = stringResource(R.string.happy_birthday_text),
+            from = stringResource(R.string.signature_text)
+        )
     }
 }
