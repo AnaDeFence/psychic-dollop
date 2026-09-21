@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.fillMaxSize(),
                         color = MaterialTheme.colorScheme.background
                     ) {
-
+                        GreetingText(message = "Happy Birthday Sam!", from = "From Emma")
 
                 }
             }
@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
-    Column {
+    Column(modifier = modifier) {
         Text(
             text = message,
             fontSize = 100.sp,
