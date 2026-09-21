@@ -7,7 +7,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -19,6 +22,7 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import com.example.visitcard.ui.theme.VisitcardTheme
 
 class MainActivity : ComponentActivity() {
@@ -30,26 +34,22 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = Color(0xFFE0E0E0)
-                ){
+                ) {
                     VisitCardApp()
                 }
             }
         }
     }
 }
+
 @Composable
 private fun VisitCardApp() {
     VisitCard(
         name = stringResource(R.string.ana_ushtanit),
         image = painterResource(R.drawable.android_logo),
         mail = stringResource(R.string.aushtanit_gmail_com)
-
-
     )
 }
-
-
-
 
 @Composable
 fun VisitCard(
@@ -57,26 +57,38 @@ fun VisitCard(
     name: String,
     image: Painter,
     modifier: Modifier = Modifier,
-
-
-    ) {
+) {
     Column(
-        modifier = modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
+        modifier = modifier.fillMaxSize()
     ) {
-        Image(
-            painter = image,
-            contentDescription = null,
-        )
-        Text(
-            text = name,
-        )
-        Text(
-            text = mail,
-        )
-    }
+        // Верхняя половина: картинка и имя по центру
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .fillMaxWidth(),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Image(
+                painter = image,
+                contentDescription = null
+            )
+            Text(
+                text = name,
+                modifier = Modifier.padding(top = 16.dp)
+            )
+        }
 
+        // Нижняя часть: почта, с отступом от низа
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(bottom = 48.dp),
+            horizontalArrangement = Arrangement.Center
+        ) {
+            Text(text = mail)
+        }
+    }
 }
 
 @Preview(showBackground = true)
