@@ -18,11 +18,14 @@ import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -48,11 +51,10 @@ class MainActivity : ComponentActivity() {
 
                 Surface(
                     modifier = Modifier
-                        .fillMaxSize()
-                        .wrapContentSize(Alignment.Center),
+                        .fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    LemonadeApp()
+                    LemonadeAppWithTopBar()
                 }
 
             }
@@ -61,7 +63,36 @@ class MainActivity : ComponentActivity() {
 }
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
+fun LemonadeAppWithTopBar(
+    modifier: Modifier = Modifier
+
+){
+    Scaffold(
+        modifier = modifier,
+        topBar = {
+            CenterAlignedTopAppBar(               // ← вот замена
+                title = { Text(stringResource(R.string.topbar)) },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = Color(0xFFFFF59D)
+                )
+            )
+        }
+    ) {
+        innerPadding->
+        LemonadeWithImages(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding)
+        )
+
+    }
+
+}
+
+
+@Composable
 fun LemonadeWithImages(modifier: Modifier = Modifier){
+
     var result by remember { mutableStateOf( 1) }
     val imageResource = when(result){
         1->R.drawable.lemon_tree
@@ -77,7 +108,8 @@ fun LemonadeWithImages(modifier: Modifier = Modifier){
     }
     Column(
         modifier = modifier,
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ) {
 
         Button(
@@ -106,9 +138,7 @@ fun LemonadeWithImages(modifier: Modifier = Modifier){
 @Preview(showBackground = true)
 @Composable
 fun LemonadeApp(){
-    LemonadeWithImages(modifier = Modifier
-        .fillMaxSize()
-        .wrapContentSize(Alignment.Center)
+    LemonadeAppWithTopBar(
 
     )
 }
