@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">artspace</string>
+    <!-- Картина 1 -->
+    <string name="mona_lisa_title">«Мона Лиза»</string>
+    <string name="mona_lisa_details">Леонардо да Винчи · 1503-1519 · Лувр, Париж</string>
+
+    <!-- Картина 2 -->
+    <string name="last_supper_title">«Тайная вечеря»</string>
+    <string name="last_supper_details">Леонардо да Винчи · 1495-1498 · Санта-Мария-делле-Грацие, Милан</string>
+
+    <!-- Картина 3 -->
+    <string name="venus_birth_title">«Рождение Венеры»</string>
+    <string name="venus_birth_details">Сандро Боттичелли · 1485 · Уффици, Флоренция</string>
+
+    <!-- Картина 4 -->
+    <string name="adam_creation_title">«Сотворение Адама»</string>
+    <string name="adam_creation_details">Микеланджело · 1512 · Ватиканские музеи</string>
+
+    <!-- Картина 5 -->
+    <string name="sistine_madonna_title">«Сикстинская Мадонна»</string>
+    <string name="sistine_madonna_details">Рафаэль Санти · 1513 · Государственные художественные собрания Дрездена</string>
+
+    <!-- Картина 6 -->
+    <string name="arnolfini_portrait_title">«Портрет четы Арнольфини»</string>
+    <string name="arnolfini_portrait_details">Ян ван Эйк · 1434 · Лондонская национальная галерея</string>
+
+    <!-- Картина 7 -->
+    <string name="garden_delights_title">«Сад земных наслаждений»</string>
+    <string name="garden_delights_details">Иероним Босх · 1500 · Прадо, Мадрид</string>
+
+    <string name="next">Вперед</string>
+    <string name="prev">Назад</string>
+
 </resources>
