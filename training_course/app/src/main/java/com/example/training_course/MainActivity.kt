@@ -81,9 +81,9 @@ fun TrainingCard(
     topic: Topic,
     modifier: Modifier = Modifier
 ){
-    Card {
-        Row {
-            Box {
+    Card() {
+        Row() {
+            Box(){
                 Image(
                     painter = painterResource(id = topic.imageRes),
                     contentDescription = null,
