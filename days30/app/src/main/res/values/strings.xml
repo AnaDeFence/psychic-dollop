@@ -2,122 +2,122 @@
     <string name="app_name">30 дней заботы</string>
 
     <!-- День 1 -->
-    <string name="day_1_title">День 1: Вы справляетесь</string>
+    <string name="day_1_title">Вы справляетесь</string>
     <string name="day_1_desc">Вы уже справляетесь. Вы ценны и важны. Не требуйте от себя слишком многого, дайте себе время отдохнуть.</string>
 
     <!-- День 2 -->
-    <string name="day_2_title">День 2: Забота о теле</string>
+    <string name="day_2_title">Забота о теле</string>
     <string name="day_2_desc">Питайтесь хорошо. Выпейте стакан воды прямо сейчас. Ваше тело — ваш главный дом.</string>
 
     <!-- День 3 -->
-    <string name="day_3_title">День 3: Цифровой детокс</string>
+    <string name="day_3_title">Цифровой детокс</string>
     <string name="day_3_desc">Проведите 30 минут без телефона. Посмотрите в окно, почитайте книгу или просто посидите в тишине.</string>
 
     <!-- День 4 -->
-    <string name="day_4_title">День 4: Маленькие шаги</string>
+    <string name="day_4_title">Маленькие шаги</string>
     <string name="day_4_desc">Большой путь начинается с одного шага. Сделайте сегодня одно маленькое доброе дело для себя.</string>
 
     <!-- День 5 -->
-    <string name="day_5_title">День 5: Право на ошибку</string>
+    <string name="day_5_title">Право на ошибку</string>
     <string name="day_5_desc">Вы имеете право на ошибку. Ошибки — это не провал, это опыт, который делает вас мудрее.</string>
 
     <!-- День 6 -->
-    <string name="day_6_title">День 6: Скажите \"Нет\"</string>
-    <string name="day_6_desc">Научитесь говорить \"нет\" тому, что отнимает вашу энергию и не приносит радости.</string>
+    <string name="day_6_title">Скажите "Нет"</string>
+    <string name="day_6_desc">Научитесь говорить "нет" тому, что отнимает вашу энергию и не приносит радости.</string>
 
     <!-- День 7 -->
-    <string name="day_7_title">День 7: Свежий воздух</string>
+    <string name="day_7_title">Свежий воздух</string>
     <string name="day_7_desc">Выйдите на прогулку. Даже 15 минут на свежем воздухе творят чудеса с настроением.</string>
 
     <!-- День 8 -->
-    <string name="day_8_title">День 8: Без сравнений</string>
+    <string name="day_8_title">Без сравнений</string>
     <string name="day_8_desc">Перестаньте сравнивать себя с другими. У каждого свой путь и своя скорость. Вы уникальны.</string>
 
     <!-- День 9 -->
-    <string name="day_9_title">День 9: Комфорт</string>
+    <string name="day_9_title">Комфорт</string>
     <string name="day_9_desc">Создайте вокруг себя комфортное пространство. Уберите рабочий стол, зажгите свечу, наденьте мягкую одежду.</string>
 
     <!-- День 10 -->
-    <string name="day_10_title">День 10: Эмоции</string>
-    <string name="day_10_desc">Позвольте себе чувствовать то, что вы чувствуете. Нет \"плохих\" эмоций, все они важны.</string>
+    <string name="day_10_title">Эмоции</string>
+    <string name="day_10_desc">Позвольте себе чувствовать то, что вы чувствуете. Нет "плохих" эмоций, все они важны.</string>
 
     <!-- День 11 -->
-    <string name="day_11_title">День 11: Благодарность</string>
+    <string name="day_11_title">Благодарность</string>
     <string name="day_11_desc">Напишите три вещи, за которые вы благодарны сегодня. Это переключит фокус на хорошее.</string>
 
     <!-- День 12 -->
-    <string name="day_12_title">День 12: Время для себя</string>
+    <string name="day_12_title">Время для себя</string>
     <string name="day_12_desc">Выделите хотя бы 1 час в день на занятие, которое приносит удовольствие именно вам.</string>
 
     <!-- День 13 -->
-    <string name="day_13_title">День 13: Отдых</string>
+    <string name="day_13_title">Отдых</string>
     <string name="day_13_desc">Отдых — это не лень. Это необходимая часть продуктивной и счастливой жизни.</string>
 
     <!-- День 14 -->
-    <string name="day_14_title">День 14: Просьба о помощи</string>
+    <string name="day_14_title">Просьба о помощи</string>
     <string name="day_14_desc">Если тяжело — попросите о помощи. Это проявление силы и смелости, а не слабости.</string>
 
     <!-- День 15 -->
-    <string name="day_15_title">День 15: Творчество</string>
+    <string name="day_15_title">Творчество</string>
     <string name="day_15_desc">Займитесь творчеством без цели стать лучшим. Рисуйте, пойте, лепите — просто ради процесса.</string>
 
     <!-- День 16 -->
-    <string name="day_16_title">День 16: Внутренний критик</string>
+    <string name="day_16_title">Внутренний критик</string>
     <string name="day_16_desc">Поговорите с собой так, как поговорили бы с лучшим другом. Скажите себе слова поддержки.</string>
 
     <!-- День 17 -->
-    <string name="day_17_title">День 17: Уборка мыслей</string>
+    <string name="day_17_title">Уборка мыслей</string>
     <string name="day_17_desc">Выпишите все свои тревоги на бумагу. Часто, перенеся мысли на лист, они перестают казаться такими страшными.</string>
 
     <!-- День 18 -->
-    <string name="day_18_title">День 18: Настоящий момент</string>
+    <string name="day_18_title">Настоящий момент</string>
     <string name="day_18_desc">Сфокусируйтесь на здесь и сейчас. Что вы видите, слышите, чувствуете? Верните себя в реальность.</string>
 
     <!-- День 19 -->
-    <string name="day_19_title">День 19: Прошлое и будущее</string>
+    <string name="day_19_title">Прошлое и будущее</string>
     <string name="day_19_desc">Прошлое уже прошло, будущее еще не наступило. Живите сегодняшним днем и наслаждайтесь им.</string>
 
     <!-- День 20 -->
-    <string name="day_20_title">День 20: Хобби</string>
+    <string name="day_20_title">Хобби</string>
     <string name="day_20_desc">Вспомните, что приносило вам радость в детстве, и попробуйте сделать это снова.</string>
 
     <!-- День 21 -->
-    <string name="day_21_title">День 21: Люди рядом</string>
+    <string name="day_21_title">Люди рядом</string>
     <string name="day_21_desc">Проведите время с людьми, после общения с которыми вы чувствуете себя заряженным и счастливым.</string>
 
     <!-- День 22 -->
-    <string name="day_22_title">День 22: Отказ от перфекционизма</string>
+    <string name="day_22_title">Отказ от перфекционизма</string>
     <string name="day_22_desc">Сделано лучше, чем идеально. Не бойтесь делать что-то неидеально с первого раза.</string>
 
     <!-- День 23 -->
-    <string name="day_23_title">День 23: Тело и спорт</string>
+    <string name="day_23_title">Тело и спорт</string>
     <string name="day_23_desc">Сделайте легкую разминку или потянитесь. Физическая активность напрямую влияет на настроение.</string>
 
     <!-- День 24 -->
-    <string name="day_24_title">День 24: Сон</string>
+    <string name="day_24_title">Сон</string>
     <string name="day_24_desc">Лягте спать сегодня на час раньше. Хороший сон — лучший лекарь для нервной системы.</string>
 
     <!-- День 25 -->
-    <string name="day_25_title">День 25: Внимание к мелочам</string>
+    <string name="day_25_title">Внимание к мелочам</string>
     <string name="day_25_desc">Заметьте что-то красивое сегодня: облако, улыбку прохожего, лист на дереве. Маленькие радости важны.</string>
 
     <!-- День 26 -->
-    <string name="day_26_title">День 26: Границы</string>
+    <string name="day_26_title">Границы</string>
     <string name="day_26_desc">Установите личные границы. Вы не обязаны всем и всегда быть доступным.</string>
 
     <!-- День 27 -->
-    <string name="day_27_title">День 27: Улыбка</string>
+    <string name="day_27_title">Улыбка</string>
     <string name="day_27_desc">Улыбнитесь себе в зеркало. Даже искусственная улыбка запускает в мозге реакции, улучшающие настроение.</string>
 
     <!-- День 28 -->
-    <string name="day_28_title">День 28: Отпускание</string>
+    <string name="day_28_title">Отпускание</string>
     <string name="day_28_desc">Отпустите то, что вы не можете контролировать. Сконцентрируйтесь на том, что в ваших силах.</string>
 
     <!-- День 29 -->
-    <string name="day_29_title">День 29: Новый опыт</string>
+    <string name="day_29_title">Новый опыт</string>
     <string name="day_29_desc">Попробуйте сегодня что-то новое, пусть даже маленькое. Новый опыт стимулирует мозг.</string>
 
     <!-- День 30 -->
-    <string name="day_30_title">День 30: Праздник</string>
+    <string name="day_30_title">Праздник</string>
     <string name="day_30_desc">Вы прошли этот путь! Похвалите себя, купите себе что-то приятное или устройте себе праздник. Вы молодцы!</string>
 </resources>
