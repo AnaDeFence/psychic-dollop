@@ -186,6 +186,15 @@ fun WoofTopAppBar(modifier: Modifier = Modifier) {
         modifier = modifier
     )
 }
+@Composable
+private fun DogItemButton(
+    expanded: Boolean,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+
+
+}
 /**
  * Composable that displays what the UI of the app looks like in light theme in the design tab.
  */
