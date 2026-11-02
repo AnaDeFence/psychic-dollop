@@ -106,6 +106,7 @@ fun SuperheroesTheme(
         }
     }
 
+
     MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography,
