@@ -1,8 +1,6 @@
 package com.example.superheroes
-
 import android.content.res.Configuration
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.core.MutableTransitionState
 import androidx.compose.animation.core.Spring.DampingRatioLowBouncy
 import androidx.compose.animation.core.Spring.StiffnessVeryLow
@@ -43,7 +41,8 @@ import com.example.superheroes.model.Hero
 import com.example.superheroes.model.HeroesRepository
 import com.example.superheroes.ui.theme.SuperheroesTheme
 
-@OptIn(ExperimentalAnimationApi::class)
+
+
 @Composable
 fun HeroesList(
     heroes: List<Hero>,

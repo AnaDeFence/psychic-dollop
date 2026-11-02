@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
         Scaffold(
             modifier = Modifier.fillMaxSize(),
             topBar = {
-                TopAppBar()
+                SuperheroesTopAppBar()
             }
         ) {
             /* Important: It is not a good practice to access data source directly from the UI.
@@ -78,7 +78,7 @@ class MainActivity : ComponentActivity() {
      */
     @OptIn(ExperimentalMaterial3Api::class)
     @Composable
-    fun TopAppBar(modifier: Modifier = Modifier) {
+    fun SuperheroesTopAppBar (modifier: Modifier = Modifier) {
         CenterAlignedTopAppBar(
             title = {
                 Text(
