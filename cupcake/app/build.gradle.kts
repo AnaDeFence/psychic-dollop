@@ -82,6 +82,12 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:${rootProject.extra["lifecycle_version"]}")
     implementation("androidx.navigation:navigation-compose:2.7.4")
 
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.10.01"))  // BOM как в implementation
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4")                // версия из BOM, без номера
+    androidTestImplementation("androidx.navigation:navigation-testing:2.7.4")      // = navigation-compose
+    androidTestImplementation("androidx.test.espresso:espresso-intents:3.5.1")     // можно оставить
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")                     // можно оставить
+
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
